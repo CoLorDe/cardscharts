@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cardscharts/static/css/main.2050c7cc.chunk.css",
-    "main.js": "/cardscharts/static/js/main.74b7f7f2.chunk.js",
-    "main.js.map": "/cardscharts/static/js/main.74b7f7f2.chunk.js.map",
+    "main.js": "/cardscharts/static/js/main.88673369.chunk.js",
+    "main.js.map": "/cardscharts/static/js/main.88673369.chunk.js.map",
     "runtime-main.js": "/cardscharts/static/js/runtime-main.f0ab9979.js",
     "runtime-main.js.map": "/cardscharts/static/js/runtime-main.f0ab9979.js.map",
     "static/js/2.12498aaf.chunk.js": "/cardscharts/static/js/2.12498aaf.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f0ab9979.js",
     "static/js/2.12498aaf.chunk.js",
     "static/css/main.2050c7cc.chunk.css",
-    "static/js/main.74b7f7f2.chunk.js"
+    "static/js/main.88673369.chunk.js"
   ]
 }
