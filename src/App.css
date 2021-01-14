@@ -1,0 +1,174 @@
+:root {
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.topnav {
+  align-self: flex-end;
+  padding-right: 1em;
+  padding-top: 0rem;
+}
+
+ul {
+  margin: 0rem;
+}
+
+h1 {
+  padding: 0.5em 0em 0em 0.5em;
+  margin: 0;
+}
+
+h2 {
+  padding: 0px 20px;
+  color: #555555;
+}
+
+h4 {
+  text-align: center;
+}
+
+.icon {
+  fill: #BBBBBB;
+  vertical-align: -0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+a:hover, a:hover .icon, .topnav a:hover, .botnav a:hover{
+  color: #EEBB66;
+  fill: #EEBB66;
+  transition: 0.5s;
+}
+
+.header {
+  background-color: #332255;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  min-height: 7rem;
+  width: 100%;
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.topnav li {
+  display:inline-block;
+  padding: 1em;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #BBBBBB;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #332255;
+  width: 100vw;
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 0;
+  padding-top: 3rem;
+}
+
+.botnav {
+  display: flex;
+}
+
+.botnav li {
+  display: block;
+}
+
+.botnav a {
+  text-decoration: none;
+  color: #BBBBBB;
+  font-weight: 700;
+}
+
+.description {
+  max-width: 40rem;
+  margin: 2rem;
+  padding: 0rem 2rem;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #999;
+}
+
+.description p {
+  color: #222222;
+}
+
+.cards-container {
+
+}
+
+.card {
+  margin: 20px 10px;
+}
+
+.card-side {
+  width: 20rem;
+  max-width: 100%;
+  min-height:30em;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: 5px 5px 5px #666;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p.hint {
+  text-align: center;
+
+}
+
+.scrollTop {
+  border-radius: 100px;
+  color: #FFFFFF;
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  box-shadow: 0 0 10px #000;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
