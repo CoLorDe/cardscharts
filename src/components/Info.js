@@ -2,7 +2,7 @@ import '../App.css';
 
 function Info() {
   return (
-    <div>
+    <div className="main">
       <h2>Info</h2>
       <div></div>
     </div>

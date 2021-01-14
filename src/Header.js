@@ -32,6 +32,7 @@ function Header() {
       </div>
 
         <Switch>
+
           <Route exact path="/indicators">
             <Indicators />
           </Route>
@@ -42,6 +43,9 @@ function Header() {
             <Info />
           </Route>
           <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/cardscharts">
             <Home />
           </Route>
           <Route path="/404">

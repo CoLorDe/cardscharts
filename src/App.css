@@ -172,3 +172,18 @@ p.hint {
     opacity: 0.5;
   }
 }
+
+.error {
+  color: #333333;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #666;
+}
+
+p.error-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  margin: 0;
+}
