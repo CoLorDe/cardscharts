@@ -16,16 +16,16 @@ function Header() {
         <div className="topnav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/cardscharts">Home</Link>
             </li>
             <li>
-              <Link to="/charts">Charts</Link>
+              <Link to="/cardscharts/charts">Charts</Link>
             </li>
             <li>
-              <Link to="/indicators">Indicators</Link>
+              <Link to="/cardscharts/indicators">Indicators</Link>
             </li>
             <li>
-              <Link to="/info">Info</Link>
+              <Link to="/cardscharts/info">Info</Link>
             </li>
           </ul>
         </div>
@@ -33,22 +33,22 @@ function Header() {
 
         <Switch>
 
-          <Route exact path="/indicators">
+          <Route exact path="/cardscharts/indicators">
             <Indicators />
           </Route>
-          <Route exact path="/charts">
+          <Route exact path="/cardscharts/charts">
             <Charts />
           </Route>
-          <Route exact path="/info">
+          <Route exact path="/cardscharts/info">
             <Info />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/cardscharts/">
             <Home />
           </Route>
-          <Route exact path="/cardscharts">
+          <Route exact path="/cardscharts/cardscharts">
             <Home />
           </Route>
-          <Route path="/404">
+          <Route path="/cardscharts/404">
             <NotFoundPage />
           </Route>
           <Redirect to="404" />

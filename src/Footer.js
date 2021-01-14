@@ -15,24 +15,24 @@ function Footer() {
         <div className="botnav">
           <ul>
             <li>
-              <Link to="/charts">Charts</Link>
+              <Link to="/cardscharts/charts">Charts</Link>
             </li>
             <li>
-              <Link to="/indicators">Indicators</Link>
+              <Link to="/cardscharts/indicators">Indicators</Link>
             </li>
             <li>
-              <Link to="/info">Info</Link>
+              <Link to="/cardscharts/info">Info</Link>
             </li>
           </ul>
           <ul>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/cardscharts/about">About</Link>
             </li>
             <li>
               <a href="https://github.com/colorde/filearn">Contribute</a>
             </li>
             <li>
-              <Link to="/terms of use">Terms of Use</Link>
+              <Link to="/cardscharts/terms of use">Terms of Use</Link>
             </li>
           </ul>
         </div>
